@@ -1,0 +1,595 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+}
+
+h1 {font-size: 3.2em;}
+h2 {font-size: 2.3em;}
+h3 {font-size: 1.6em;}
+p  {font-size: 1.2em;}
+ul {list-style: none;}
+li {font-size: 1.2em;}
+
+
+/* EDITS DE BOTONES */
+
+
+button {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: blueviolet;
+}
+
+button:hover {
+    background-color: rgb(72, 8, 137);
+}
+
+/* FIN EDITS DE BOTONES */
+
+
+
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+.container2 {
+    max-width: 750px;
+    margin: auto;
+}
+
+header {
+    background-color: rgb(242, 244, 246);
+}
+
+header .logo {
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: rgb(8, 8, 8);
+    font-size: 1.5em;
+}
+
+header .container {
+   display: flex; /* */
+   flex-direction: column; /* Esto hace que los elementos se ordenen en una columna*/
+   align-items: center; /* para centrar horizontalmente*/
+
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a {
+    padding: 15px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover {
+    color: blueviolet;
+}
+
+
+
+                     /* SECCION UNO "Hero": Aprende Ingles con los mejores profesores*/
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: beige;
+    background-image: url(../engllishpage/imagenes/ingles.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center center;
+}
+
+
+
+                           /* SECCION UNO "Hero": Aprende Ingles con los mejores profesores*/
+
+
+
+                                                /* SECCION DOS Somos Ingles ya*/
+
+
+
+#somos-ingles {
+    background-color: aliceblue;
+}
+
+#somos-ingles .container {
+    text-align: center;
+    padding: 130px 12px;
+}
+
+.coloracento {
+    color: #d6abff;
+}
+
+.lista {
+    font-weight: bold;
+    
+}
+
+                                                  /* FIN SECCION DOS Somos Ingles ya*/  
+
+
+                                                    /* SECCION TRES*/
+
+#nuestros-programas {
+    background-color: #323653;
+    color: white;
+}
+
+#nuestros-programas .container {
+    text-align: center;
+    padding: 100px 0px;
+}
+
+#nuestros-programas h2 { 
+    margin-top: 0;
+    font-size: 3em;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+}
+
+#nuestros-programas p {
+    display: none;
+}
+
+#nuestros-programas .carta {
+    
+    background-position: center center;
+    background-size: cover;
+    margin: 20px;
+    border-radius: 15px;
+
+}
+
+.carta:first-child {
+    background-image:  linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(../seguros/imagenes/dogcouple.jpg);
+ 
+}
+
+.carta:nth-child(2) {
+    background-image:  linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(../seguros/imagenes/roadtrip.jpg)
+    
+
+}
+
+.carta:nth-child(3) {
+    background-image:  linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(../seguros/imagenes/dad-daughter.jpg);
+
+}
+
+#nuestros-programas .carta2 {
+    
+    background-position: center center;
+    background-size: cover;
+    margin: 20px;
+    border-radius: 15px;
+
+}
+
+.carta2:first-child {
+    background-image:  linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(../seguros/Imagenes/1.jpg);
+ 
+} /**/
+
+.carta2:nth-child(2) {
+    background-image:  linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(../seguros/imagenes/grocer.jpg);
+    
+
+}
+
+.carta2:nth-child(3) {
+    background-image:  linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(../seguros/imagenes/constructor.jpg);
+    
+
+}
+
+
+
+
+                                                    /* FIN SECCION TRES Nuestros Programas*/
+
+                                                        /* SECCION CUATRO Caracteristicas*/
+
+#caracteristicas .container{
+    text-align: center;
+    padding: 80px 10px;
+
+}
+
+#caracteristicas li {
+    margin: 16px 0px;
+    font-weight: bold;
+    font-size: 1.8em;
+    margin-right: 30px;
+    color: black;
+}
+
+.benef {
+    background-image: linear-gradient(43deg, #d8b4ff 0%, #c98fff 46%, #a545ff 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+  
+}
+
+#uk img {
+    width: 100%;
+}
+
+                                                        /* FIN SECCION CUATRO Caracteristicas*/                                                                                                                       
+                                                                    
+                                                     /* SECCION CINCO Final Listo para aprender ingles*/
+
+
+footer {
+    background-color: #323653;
+}
+
+footer p {
+    margin: 0;
+    padding: 12px;
+    color: rgb(255, 255, 255);
+    
+}
+
+footer .container {
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+                                /* Fin SECCION CINCO Listo para aprender ingles*/
+
+
+
+@media (min-width: 720px) {
+
+    header {
+        position:fixed; /* La barra se mantiene visible todo el tiempo*/
+        width: 100%; /* Para que no se achique la barra */
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    
+    header nav {
+        flex-direction: row;
+        align-items: center;
+        padding-bottom: 0px;
+        padding-right: 25px;
+        
+    }
+
+
+    #hero {
+        background-position:initial;
+        background-size: cover;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+    }
+
+    #imagen2 {
+        width: 100%;
+    }
+
+    .heterofamily {
+        width: 100%;
+    }
+
+    #vivirseguros {
+        width: 90%;
+        padding: 0px 30px;
+    }
+
+    #vivirseguros p {
+        font-size: 3rem;
+        color: black;
+    }
+
+    .contactanosboton {
+        width: 14rem;
+        height: 3.5rem;
+        color: white;
+        background-color: #d7acff;
+        cursor: pointer;
+        font-size: 1.5rem;
+        border-radius: 10px;
+        border: none;
+    }
+
+    .contactanosboton:hover {
+        background-color: #bf7bff;
+    }
+
+    .contactanos-link {
+        text-decoration: none;
+        color:white;
+        font-size: 1.5rem;
+    }
+
+    /* SOMOS INGLES YA*/
+
+    #somos-ingles {
+    width: 100%;
+    background-color: #323653;
+    height: 100vh;
+    padding-top: 2vh;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    }
+
+
+    #imagen1 {
+        width: 50%;
+        
+    }
+
+    .imgviv {
+        width: 100%;
+    }
+
+    #texto1 {
+        width: 80%;
+        height: 80vh;
+        font-size: 20px;
+        padding: 40px 0px 0px 0px; /* Hizo que se achicara el texto hacia los lados*/
+        color: white;
+    }
+
+     /* FIN SOMOS INGLES YA*/
+
+     /* NUESTROS PROGRAMAS*/
+
+     #nuestros-programas {
+        
+         width: 100%;
+         height: 140vh;
+         padding-top: 0px;
+     }
+
+     #nuestros-programas .programas{
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr ;
+         align-items: center;
+        
+     }
+
+    .programas2{
+    
+        display: grid;
+        grid-template-columns: 1fr 2fr 2fr 1fr ;
+        align-items: center;
+       
+    }
+
+     #nuestros-programas h3 { 
+        
+        font-size: 2vw;
+        text-justify: center;
+        padding: 20px 20px;
+    
+
+    }
+
+    .container-programas {
+        padding-top: 7rem ;
+        width: 100%;
+        height: 100vh;
+    }
+
+    #nuestros-programas .carta{
+        width: 80%;
+        height: 35vh;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+        text-align: center;
+    
+    }
+
+    #nuestros-programas .carta2{
+        width: 80%;
+        height: 35vh;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+        text-align: center;
+    
+    }
+
+    .boton-info {
+        width: 8rem;
+        height: 2.5rem;
+        color: white;
+        background-color: #d7acff;
+        cursor: pointer;
+        font-size: 1rem;
+        border-radius: 10px;
+        border: none;
+    }
+
+
+     /* FIN NUESTROS PROGRAMAS */
+
+
+
+
+
+     /* */
+
+     #caracteristicas {
+
+        display: grid;
+        grid-template-columns: 5fr 4fr;
+        align-items: center;
+        background-color: #ffffff;
+        height: 100vh;
+     }
+
+     #caracteristicas .container {
+         text-align: initial;
+ 
+     }
+
+     #caracteristicas ul {
+         margin-left: 50px;
+     }
+
+     #uk {
+         padding-left: 0px;
+         width: 100%;
+         height: 100%;
+         background-color: #d7acff;
+         background-image: url(imagenes/couple2.jpg);
+         background-size: cover;
+     }
+
+     #uk img {
+         width: 100%;
+         height: 100%;
+     }
+     .texto-compro {
+        color: white;
+     }
+
+    .icono-check {
+        color: #323653;
+   }
+
+
+
+
+
+
+
+
+    /* FINAL*/
+    
+    #contacto {
+        padding-top: 5rem;
+        display:flex;
+       
+        flex-direction: column;
+       
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        height: 100vh;
+        width: 100%;
+    }
+    
+
+    #contacto h2 {
+        color: black;
+        padding-top: 1.6rem ;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+   
+    form {
+        display: grid;
+        margin-left: 3rem;
+        gap: .5rem
+        ;
+    }
+
+    .texto-final{
+        margin: 0;
+        padding-bottom: .8rem;
+        padding-left: 3rem;
+    }
+
+    #form-name {
+        width: 30%;
+    }
+
+    #form-mail {
+        width: 30%;
+    }
+
+    #form-msg {
+        width: 40%;
+        height: 15vh;
+    }
+
+    #form-boton {
+        margin-top: 1rem;
+        width: 10%;
+        height: 5vh;
+        background-color: #d7acff;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    #footer .container{
+        height: 15vh;
+    }
+}
