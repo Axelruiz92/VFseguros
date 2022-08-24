@@ -177,7 +177,7 @@ header a:hover {
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url(../seguros/imagenes/dogcouple.jpg);
+    ,url('imagenes/dogcouple.jpg');
  
 }
 
@@ -187,7 +187,7 @@ header a:hover {
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url(../seguros/imagenes/roadtrip.jpg)
+    ,url('imagenes/roadtrip.jpg')
     
 
 }
@@ -198,7 +198,7 @@ header a:hover {
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url(../seguros/imagenes/dad-daughter.jpg);
+    ,url('imagenes/dad-daughter.jpg');
 
 }
 
@@ -217,7 +217,7 @@ header a:hover {
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url(../seguros/Imagenes/1.jpg);
+    ,url('imagenes/1.jpg');
  
 } /**/
 
@@ -227,7 +227,7 @@ header a:hover {
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url(../seguros/imagenes/grocer.jpg);
+    ,url('imagenes/grocer.jpg');
     
 
 }
@@ -238,7 +238,7 @@ header a:hover {
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url(../seguros/imagenes/constructor.jpg);
+    ,url('imagenes/constructor.jpg');
     
 
 }
